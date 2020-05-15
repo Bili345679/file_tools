@@ -4,6 +4,8 @@
 # 文件校验系统(对大量文件校验时，可能会在读取文件目录时花费多倍时间，下一版将对此优化)
 #   用于校验文件完整性
 
+    目前只做了单个多种校验类型同时运行，未作多文件同时校验，待升级
+    
     默认校验格式是MD5，如果想使用其他校验格式，请到new_file_check_thread.py文件中把
     "   thread_check_dict["md5"]        = md5_class()
         thread_check_dict["sha1"]       = sha1_class()
