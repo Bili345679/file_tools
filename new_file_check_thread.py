@@ -93,17 +93,17 @@ def check_file_block(file_name, block_size = 8910720 * 2):
 
         thread_check_dict = {}
         thread_check_dict["md5"]        = md5_class()
-#         thread_check_dict["sha1"]       = sha1_class()
-#         thread_check_dict["sha224"]     = sha224_class()
-#         thread_check_dict["sha256"]     = sha256_class()
-#         thread_check_dict["sha384"]     = sha384_class()
-#         thread_check_dict["sha512"]     = sha512_class()
-#         thread_check_dict["blake2b"]    = blake2b_class()
-#         thread_check_dict["blake2s"]    = blake2s_class()
-#         thread_check_dict["sha3_224"]   = sha3_224_class()
-#         thread_check_dict["sha3_256"]   = sha3_256_class()
-#         thread_check_dict["sha3_384"]   = sha3_384_class()
-#         thread_check_dict["sha3_512"]   = sha3_512_class()
+        thread_check_dict["sha1"]       = sha1_class()
+        thread_check_dict["sha224"]     = sha224_class()
+        thread_check_dict["sha256"]     = sha256_class()
+        thread_check_dict["sha384"]     = sha384_class()
+        thread_check_dict["sha512"]     = sha512_class()
+        thread_check_dict["blake2b"]    = blake2b_class()
+        thread_check_dict["blake2s"]    = blake2s_class()
+        thread_check_dict["sha3_224"]   = sha3_224_class()
+        thread_check_dict["sha3_256"]   = sha3_256_class()
+        thread_check_dict["sha3_384"]   = sha3_384_class()
+        thread_check_dict["sha3_512"]   = sha3_512_class()
 
         for each_check_thread in thread_check_dict:
             thread_check_dict[each_check_thread].start()
