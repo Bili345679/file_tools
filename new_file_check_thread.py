@@ -8,17 +8,17 @@ import file_info
 public_file_block = ""
 
 md5_hash	    = hashlib.md5()
-sha1_hash	    = hashlib.sha1()
-sha224_hash	    = hashlib.sha224()
-sha256_hash	    = hashlib.sha256()
-sha384_hash	    = hashlib.sha384()
-sha512_hash	    = hashlib.sha512()
-blake2b_hash	= hashlib.blake2b()
-blake2s_hash	= hashlib.blake2s()
-sha3_224_hash	= hashlib.sha3_224()
-sha3_256_hash	= hashlib.sha3_256()
-sha3_384_hash	= hashlib.sha3_384()
-sha3_512_hash	= hashlib.sha3_512()
+# sha1_hash	    = hashlib.sha1()
+# sha224_hash	    = hashlib.sha224()
+# sha256_hash	    = hashlib.sha256()
+# sha384_hash	    = hashlib.sha384()
+# sha512_hash	    = hashlib.sha512()
+# blake2b_hash	= hashlib.blake2b()
+# blake2s_hash	= hashlib.blake2s()
+# sha3_224_hash	= hashlib.sha3_224()
+# sha3_256_hash	= hashlib.sha3_256()
+# sha3_384_hash	= hashlib.sha3_384()
+# sha3_512_hash	= hashlib.sha3_512()
 
 def reset():
     global public_file_block
